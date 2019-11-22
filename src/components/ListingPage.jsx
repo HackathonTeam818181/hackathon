@@ -36,14 +36,14 @@ export default class ListingPage extends Component {
                    </button>
                </div>
                <div className='propertyPics'>
-                   <img src={this.state.thisListing['Image Links '][0]}></img>
+                   <img src={this.state.thisListing.Image[0]}></img>
                    <div className='imageIcons'>
-                    <img className='eachImage' src={this.state.thisListing['Image Links '][1]}></img>
-                    <img className='eachImage' src={this.state.thisListing['Image Links '][2]}></img>
-                    <img className='eachImage' src={this.state.thisListing['Image Links '][3]}></img>
-                    <img className='eachImage' src={this.state.thisListing['Image Links '][4]}></img>
-                    <img className='eachImage' src={this.state.thisListing['Image Links '][5]}></img>
-                    <img className='eachImage' src={this.state.thisListing['Image Links '][6]}></img>
+                    <img className='eachImage' src={this.state.thisListing.Image[1]}></img>
+                    <img className='eachImage' src={this.state.thisListing.Image[2]}></img>
+                    <img className='eachImage' src={this.state.thisListing.Image[3]}></img>
+                    <img className='eachImage' src={this.state.thisListing.Image[4]}></img>
+                    <img className='eachImage' src={this.state.thisListing.Image[5]}></img>
+                    <img className='eachImage' src={this.state.thisListing.Image[6]}></img>
                    </div>
                </div>
                </div>

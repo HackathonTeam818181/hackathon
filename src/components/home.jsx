@@ -17,17 +17,32 @@ export default class home extends Component {
         return (
             <div className = "whole">
 
-                <div className="navbar navbar-default navbar-fixed-top">
-
+                <div className="the-navbar navbar navbar-default navbar-fixed-top">
+                    <div>
+                        LOGO
+                    </div>
+                    <div>
+                        <input type="text" className="searchbar" placeholder="SEARCH"></input>
+                        <button className="search-button">SEARCH</button>
+                    </div>
+                    <div >
+                    </div>
+                    <div>
+                        Log in
+                    </div>
                 </div>
                 <div className="body">
                     <div className="listings pre-scrollable">
                         <Listing data={this.state.data}/>
                     </div>
                     <div className="map-section">
-                        <div className="map-filters">
-
-                       
+                        <div className="first-filters">
+                            <p>Price</p>
+                            <p>Bed</p>
+                            <p>Bath</p>
+                        </div>
+                        <div className="filter-button">
+                            <button onClick = {this.startModal}>FILTER</button>
                         </div>
                         <div className="map">
                         </div>

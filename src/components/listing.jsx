@@ -12,7 +12,13 @@ export default class listing extends Component {
                 <Link to={'/listing/' + i} className='link' >
 
                 <div className="one-listing">
+                <div className="image-container">
+                
+                    <img src={each.Image[0]} />
+                </div>
+                <div>
                     {each.Title}
+                </div>
                 </div>
                 </Link>
             )
