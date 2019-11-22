@@ -25,8 +25,11 @@ export default class home extends Component {
                         <Listing data={this.state.data}/>
                     </div>
                     <div className="map-section">
-                        <div className="map-filters">
-
+                        <div className="first-filters">
+                            
+                        </div>
+                        <div className="filter-button">
+                            Filter
                         </div>
                         <div className="map">
 

@@ -76,12 +76,45 @@
 }
 
 .one-listing{
-  height: 5%;
-  width: 50%;
+  height: auto;
+  width: 40%;
+  border: 1px solid black;
+  margin: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
 
+.one-listing div{
+  padding: 10px;
+}
+
+.image-container{
+  height: auto;
+  width: 90%;
+  overflow: hidden;
+}
+
+.image-container img{
+  width: 100%;
+  height: auto;
 }
 
 .all-shit{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+  align-self: space-between;
+}
+
+.first-filters{
+  height: 30%;
+  width: 100%;
+}
+
+.filter-button{
+  height: 10%;
+  width: 100%;
 }
