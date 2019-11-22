@@ -5,12 +5,16 @@ import data from '../data.json';
 
 export default class ListingPage extends Component {
     state = {
-        dataList: data
+        dataList: data,
+        thisListing: data[this.props.match.params.id]
     }
 
 
+
+
+
     render() {
-    
+    console.log(this.state.thisListing)
         return (
             <div>
             
@@ -21,8 +25,8 @@ export default class ListingPage extends Component {
                 {/* <input name='search' type='text' className='search' placeholder=' Search'></input> */}
                </nav>
                <div className='theProperty'>
-
                <div className='propertyInfo'>
+                 <h1 className='listingTitle'>{this.state.thisListing.Title}</h1>
                     {/* <li>{this.state.dataList.data}</li> */}
                    <div>
 
@@ -31,7 +35,17 @@ export default class ListingPage extends Component {
 
                    </button>
                </div>
-               <div className='propertyPics'></div>
+               <div className='propertyPics'>
+                   <img src={this.state.thisListing['Image Links '][0]}></img>
+                   <div className='imageIcons'>
+                    <img className='eachImage' src={this.state.thisListing['Image Links '][1]}></img>
+                    <img className='eachImage' src={this.state.thisListing['Image Links '][2]}></img>
+                    <img className='eachImage' src={this.state.thisListing['Image Links '][3]}></img>
+                    <img className='eachImage' src={this.state.thisListing['Image Links '][4]}></img>
+                    <img className='eachImage' src={this.state.thisListing['Image Links '][5]}></img>
+                    <img className='eachImage' src={this.state.thisListing['Image Links '][6]}></img>
+                   </div>
+               </div>
                </div>
                <footer>
 

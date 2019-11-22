@@ -1,5 +1,5 @@
 nav {
- background-color: lightpink;
+ background-color: lightcyan;
  width: 100vw;
  height: 8vh;
  display: flex;
@@ -9,6 +9,7 @@ nav {
 
 .theProperty {
     display: flex;
+    border-bottom: 2px solid grey
 }
 .search{
     height: 5vh;
@@ -18,7 +19,41 @@ nav {
 }
 
 .propertyInfo {
-    width: 50vw;
-    height: 100vh;
-    background-color: lightcyan;
+    width: 35vw;
+    height: 40vh;
+    background-color: lightgrey;
+    padding: 30px;
+}
+
+.listingTitle {
+    font-size: 18px;
+    width: 100%;
+}
+.propertyPics{
+    width: 65vw;
+    display: flex;
+}
+.propertyPics > img{
+    border: 2px solid black;
+    margin: 30px;
+    width: 60%;
+    height: 180px;
+}
+
+.imageIcons {
+    margin-top: 10px;
+    height: 230px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+}
+
+.eachImage {
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.theProperty {
+
 }

@@ -27,9 +27,9 @@ export default class home extends Component {
                     <div className="map-section">
                         <div className="map-filters">
 
+                       
                         </div>
                         <div className="map">
-
                         </div>
                     </div>
                 </div>

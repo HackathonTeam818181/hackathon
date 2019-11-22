@@ -1,37 +1,22 @@
-<<<<<<< HEAD
-import React, { Component } from 'react';
-import data from './data.json';
-import ListingPage from './components/ListingPage'
-
-
-export default class App extends Component {
-
-state= {
- dataList: data
-=======
 import React from 'react';
 import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Home from './components/home'
+import ListingPage from './components/ListingPage';
+import {Route, Link, Switch} from 'react-router-dom'
+import home from './components/home';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <Home />
+      <Switch>
+        <Route exact path="/" component={home} />
+        <Route exact path="/listing/:id" component={ListingPage} />
+      </Switch>
     </div>
   );
->>>>>>> 1b2460be80aebafc098071bf3c4b753af5055ae0
 }
 
 
 
-  render() {
-    console.log(this.state.dataList)
-    return (
-      <div>
-        <ListingPage />
-      </div>
-    )
-  }
-}
