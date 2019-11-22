@@ -29,6 +29,12 @@
   padding-bottom: 10px;
   padding-right: 20px;
   padding-left: 20px;
+   margin-left: 0px;
+}
+
+.kaka{
+  width: 150px;
+  height: auto;
 }
 
 .bold{
