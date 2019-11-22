@@ -22,8 +22,8 @@ export default class home extends Component {
                         LOGO
                     </div>
                     <div>
-                        <input type="text" className="searchbar" placeholder="SEARCH"></input>
-                        <button className="search-button">SEARCH</button>
+                        <input type="text" onSubmit={()=>{this.filterList()}} className="searchbar" placeholder="SEARCH"></input>
+                        <button className="search-button" onClick={()=>{this.filterList()}}>SEARCH</button>
                     </div>
                     <div >
                     </div>
@@ -37,9 +37,9 @@ export default class home extends Component {
                     </div>
                     <div className="map-section">
                         <div className="first-filters">
-                            <p>Price</p>
-                            <p>Bed</p>
-                            <p>Bath</p>
+                            <p className="bold">PRICE</p>
+                            <p className="bold">BED</p>
+                            <p className="bold">BATH</p>
                         </div>
                         <div className="filter-button">
                             <button onClick = {this.startModal}>FILTER</button>
