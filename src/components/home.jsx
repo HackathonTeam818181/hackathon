@@ -19,7 +19,7 @@ export default class home extends Component {
 
                 <div className="the-navbar navbar navbar-default navbar-fixed-top">
                     <div>
-                        LOGO
+                        <img src={require("../Logo.png")} className="kaka"/>
                     </div>
                     <div>
                         <input type="text" onSubmit={()=>{this.filterList()}} className="searchbar" placeholder="SEARCH"></input>
