@@ -1,0 +1,24 @@
+nav {
+ background-color: lightpink;
+ width: 100vw;
+ height: 8vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.theProperty {
+    display: flex;
+}
+.search{
+    height: 5vh;
+    width: 50vw;
+    border: 1px solid black;
+
+}
+
+.propertyInfo {
+    width: 50vw;
+    height: 100vh;
+    background-color: lightcyan;
+}
