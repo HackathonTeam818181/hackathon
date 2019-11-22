@@ -19,11 +19,11 @@ export default class home extends Component {
 
                 <div className="the-navbar navbar navbar-default navbar-fixed-top">
                     <div>
-                        Logo
+                        LOGO
                     </div>
                     <div>
-                        <input type="text" className="searchbar"></input>
-                        <button >Search</button>
+                        <input type="text" className="searchbar" placeholder="SEARCH"></input>
+                        <button className="search-button">SEARCH</button>
                     </div>
                     <div >
                     </div>
@@ -42,7 +42,7 @@ export default class home extends Component {
                             <p>Bath</p>
                         </div>
                         <div className="filter-button">
-                            <button onClick = {this.startModal}>Filter</button>
+                            <button onClick = {this.startModal}>FILTER</button>
                         </div>
                         <div className="map">
 
