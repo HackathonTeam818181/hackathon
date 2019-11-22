@@ -20,3 +20,68 @@
 .App-link {
   color: #09d3ac;
 }
+
+.whole{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.body{
+  background-color: blue;
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar{
+  width: 100%;
+  height: 100px;
+  position: fixed top;
+}
+
+.listings{
+  width: 80%;
+  height: 100%;
+  background-color: green;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.map-section{
+  width: 30%;
+  height: 100%;
+  background-color: red;
+}
+
+.map{
+  height: 60%;
+  width: 100%;
+  background-color: black;
+}
+
+.map-filters{
+  height: 40%;
+  width: 100%;
+  background-color: darkgreen;
+}
+
+.pre-scrollable{
+  max-height: 90vw;
+}
+
+.one-listing{
+  height: 5%;
+  width: 50%;
+
+}
+
+.all-shit{
+  display: flex;
+  flex-wrap: wrap;
+}
