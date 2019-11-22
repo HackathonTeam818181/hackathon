@@ -6,6 +6,11 @@
   height: 40vmin;
 }
 
+*{
+  font-size: 1.05em;
+  font-family: sans-serif;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -56,7 +61,7 @@
 .map-section{
   width: 30%;
   height: 100%;
-  background-color: red;
+  background-color: white;
 }
 
 .map{
@@ -68,7 +73,6 @@
 .map-filters{
   height: 40%;
   width: 100%;
-  background-color: darkgreen;
 }
 
 .pre-scrollable{
@@ -92,7 +96,7 @@
 }
 
 .image-container{
-  height: auto;
+  height: 200px;
   width: 90%;
   overflow: hidden;
 }
@@ -102,19 +106,57 @@
   height: auto;
 }
 
+.the-navbar{
+  display: flex;
+  justify-content: space-around;
+}
+
+.searchbar{
+  width: 800px;
+  margin-right: 5px;
+}
+
 .all-shit{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-self: space-between;
+  background-color: #EDE1D5;
 }
 
 .first-filters{
   height: 30%;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 5%;
+  background-color: #EDE1D5;
 }
 
-.filter-button{
+.filter-button button{
   height: 10%;
-  width: 100%;
+  width: 90%;
+  padding: 5px;
+  background-color: #3E3E3E;
+  margin-left: 10px;
+}
+
+.first-filters p {
+ padding-left: 5px;
+}
+
+.one-listing{
+  background-color: white;
+}
+
+button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.map{
+  background-color: transparent;
+  background-image: url('https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi7iOeb2f7lAhWOm1kKHRqzBB4QjRx6BAgBEAQ&url=https%3A%2F%2Fmedium.com%2F%40jkeung%2Fintegrating-google-maps-api-w-angular-7-e7672396ce2d&psig=AOvVaw32JWPXv10ZLge4R8j9BBJ-&ust=1574542275355675')
 }
