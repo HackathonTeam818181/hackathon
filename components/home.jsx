@@ -45,7 +45,6 @@ export default class home extends Component {
                             <button onClick = {this.startModal}>FILTER</button>
                         </div>
                         <div className="map">
-
                         </div>
                     </div>
                 </div>
